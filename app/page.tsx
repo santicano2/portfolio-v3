@@ -1,3 +1,9 @@
+import { Header } from "@/components/Header";
+
 export default function Home() {
-  return <h1 className="text-3xl text-green-500"> Hola </h1>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
