@@ -1,4 +1,5 @@
 import { Logo } from "./Logo";
+import { MobileMenu } from "./MobileMenu";
 import { NavBar } from "./NavBar";
 
 import { MotionHeader } from "@/lib/motion";
@@ -19,6 +20,7 @@ export const Header = () => {
         </div>
         <div className="hidden h-28 items-center justify-between sm:flex">
           <Logo />
+          <MobileMenu />
         </div>
       </div>
     </MotionHeader>
