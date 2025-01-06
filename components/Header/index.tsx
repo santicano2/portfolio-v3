@@ -1,5 +1,7 @@
-import { MotionHeader } from "@/lib/motion";
 import { Logo } from "./Logo";
+import { NavBar } from "./NavBar";
+
+import { MotionHeader } from "@/lib/motion";
 
 export const Header = () => {
   return (
@@ -13,6 +15,7 @@ export const Header = () => {
       <div className="mx-auto max-w-5xl">
         <div className="flex h-28 items-center justify-between sm:hidden">
           <Logo />
+          <NavBar />
         </div>
         <div className="hidden h-28 items-center justify-between sm:flex">
           <Logo />
