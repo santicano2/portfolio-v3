@@ -1,6 +1,7 @@
 import { About } from "@/components/About";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
+import { Projects } from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <main className="px-10 sm:px-6">
         <Hero />
         <About />
+        <Projects />
       </main>
     </>
   );
