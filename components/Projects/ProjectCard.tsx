@@ -28,6 +28,7 @@ export const ProjectCard = ({ projectData }: Props) => {
           alt={`${projectData.name} image`}
           width={448}
           height={280}
+          priority
         />
         <MotionDiv
           initial="initial"

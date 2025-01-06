@@ -26,3 +26,70 @@ export const projectsData: projectType[] = [
     tags: ["Next.js", "TailwindCSS", "Stripe", "Primsa", "Neon.db"],
   },
 ];
+
+export const skillsData = [
+  {
+    img: "html5/html5-original.svg",
+    name: "HTML",
+  },
+  {
+    img: "css3/css3-original.svg",
+    name: "CSS",
+  },
+  {
+    img: "javascript/javascript-original.svg",
+    name: "JavaScript",
+  },
+  {
+    img: "typescript/typescript-original.svg",
+    name: "TypeScript",
+  },
+  {
+    img: "java/java-original.svg",
+    name: "Java",
+  },
+  {
+    img: "c/c-original.svg",
+    name: "C",
+  },
+  {
+    img: "react/react-original.svg",
+    name: "React",
+  },
+  {
+    img: "nextjs/nextjs-original.svg",
+    name: "Next.js",
+  },
+  {
+    img: "tailwindcss/tailwindcss-original.svg",
+    name: "TailwindCSS",
+  },
+  {
+    img: "nodejs/nodejs-original.svg",
+    name: "Node.js",
+  },
+  {
+    img: "express/express-original.svg",
+    name: "Express",
+  },
+  {
+    img: "mongodb/mongodb-original.svg",
+    name: "MongoDB",
+  },
+  {
+    img: "mysql/mysql-original.svg",
+    name: "MySQL",
+  },
+  {
+    img: "postgresql/postgresql-original.svg",
+    name: "PostgreSQL",
+  },
+  {
+    img: "prisma/prisma-original.svg",
+    name: "Prisma",
+  },
+  {
+    img: "git/git-original.svg",
+    name: "Git",
+  },
+];
