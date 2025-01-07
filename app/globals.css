@@ -36,6 +36,25 @@
   }
 }
 
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #000;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 32, 78);
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 32, 78);
+  }
+}
+
 * {
   border-color: rgb(var(--color-text));
 }
