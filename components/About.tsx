@@ -19,8 +19,8 @@ export const About = () => {
           <p>
             Soy Santi, tengo 22 años y vivo en Buenos Aires, Argentina. Soy un
             desarrollador web full stack, cuento con experiencia construyendo
-            sitios y aplicaciones web. Actualmente estoy estudiando la carrera
-            Licenciatura en Sistemas en la Universidad Nacional de Lanús (UNLa).
+            sitios y aplicaciones web. Soy estudiante de la carrera Licenciatura
+            en Sistemas en la Universidad Nacional de Lanús (UNLa).
           </p>
 
           <p>
