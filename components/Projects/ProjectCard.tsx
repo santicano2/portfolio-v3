@@ -92,7 +92,7 @@ export const ProjectCard = ({ projectData }: Props) => {
         <div className="flex flex-wrap gap-3">
           {projectData.tags.map((tag, index) => (
             <span
-              className="rounded-3xl bg-target bg-opacity-20 px-2 py-1 text-sm font-bold text-[#A0153E] "
+              className="rounded-3xl bg-target bg-opacity-20 px-2 py-1 text-sm font-bold text-white/75 "
               key={index}
             >
               {tag}
