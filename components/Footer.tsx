@@ -1,4 +1,4 @@
-import { Github, Linkedin } from "lucide-react";
+import { FileUser, Github, Linkedin } from "lucide-react";
 
 import { MotionDiv } from "@/lib/motion";
 
@@ -12,6 +12,10 @@ const socialData = [
   {
     link: "https://www.linkedin.com/in/santicano2/",
     icon: <Linkedin width={iconSize.width} height={iconSize.height} />,
+  },
+  {
+    link: "/assets/cvSantiagoCano2025.pdf",
+    icon: <FileUser width={iconSize.width} height={iconSize.height} />,
   },
 ];
 
